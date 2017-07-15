@@ -1,0 +1,35 @@
+{
+  "name": "headtails",
+  "version": "1.0.0",
+  "description": "CLI Coinflip using Node.JS",
+  "main": "headtails.js",
+  "bin" : {
+    "coinflip" : "headtails.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabru-md/coinflip.git"
+  },
+  "keywords": [
+    "coinflip",
+    "flip",
+    "coin",
+    "head",
+    "tails",
+    "heads",
+    "headtails"
+  ],
+  "author": "Manish Devgan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabru-md/coinflip/issues"
+  },
+  "homepage": "https://github.com/gabru-md/coinflip#readme",
+  "dependencies": {
+    "chalk": "^2.0.1",
+    "figlet": "^1.2.0"
+  }
+}
